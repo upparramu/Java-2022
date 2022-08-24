@@ -4,12 +4,12 @@ public class Occurrence {
 
 			public static void main(String[] args) {
 				
-                            String name4="Uppara Parashuram";
+                            String xworkz="Uppara Parashuram";
 	                         char cha='a';
 	                         int count=0;
-	for (int ram=0; ram<name4.length();ram++)
+	for (int ram=0; ram<xworkz.length();ram++)
 	{
-	if(name4.charAt(ram)==cha)
+	if(xworkz.charAt(ram)==cha)
 		count++;
 	}
 	System.out.println(cha+"\t"+ "total is "+count);
