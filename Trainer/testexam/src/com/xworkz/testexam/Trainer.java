@@ -7,12 +7,12 @@ public class Trainer {
 	protected int experience;
 	protected String specialzation;
 	
-	public Trainer() 
+	protected Trainer() 
 	{
 		System.out.println("*-----Trainer is a default constructor-----*");
 	}
 	
-	public Trainer(String name, int experience, String specialzation )
+	protected Trainer(String name, int experience, String specialzation )
 	{
 		this.name=name;
 		this.experience=experience;
@@ -20,21 +20,21 @@ public class Trainer {
 		
 	}
 	
-	public boolean setTraining()
+	protected boolean setTraining()
 	{
 		System.out.println("*-----Java Training classes held on daily basis-----*");
 		
 		return true;
 	}
 	
-	public boolean setConductInterview()
+	protected boolean setConductInterview()
 	{
 		System.out.println("*-----in x-workz conducting mock interviews-----*");
 		
 		return true;
 	}
 	
-	public boolean setCoding()
+	protected boolean setCoding()
 	{
 		System.out.println("*-----on basis of java coding we have tasks on daily basis");
 		
