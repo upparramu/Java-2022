@@ -3,9 +3,9 @@ package com.xworkz.testexam;
 public class Trainer {
 
 	
-	public String name;
-	public int experience;
-	public String specialzation;
+	protected String name;
+	protected int experience;
+	protected String specialzation;
 	
 	public Trainer() 
 	{
