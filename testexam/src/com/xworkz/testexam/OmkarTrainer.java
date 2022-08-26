@@ -33,22 +33,22 @@ public class OmkarTrainer extends Trainer{
 	
 	
 //	Getter Method
-//	Encapsulation
+
 	
 	public String getName()
 	{
-		super.name=name;
+		
 		return name;
 	}
 	
 	public int getexperience()
 	{
-		super.experience=experience;
+		
 		return experience;
 	}
 	public String getspecialzation()
 	{
-		super.specialzation=specialzation;
+		
 		return specialzation;
 	}
 	
