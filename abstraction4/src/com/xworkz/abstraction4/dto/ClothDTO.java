@@ -68,7 +68,7 @@ public class ClothDTO {
 	}
 
 	public void setWashable(boolean washable) {
-		Washable = washable;
+		this.Washable = washable;
 	}
 
 	public String getColour() {
@@ -340,7 +340,7 @@ public class ClothDTO {
 	}
 
 	public void setRegistanceToSnagging(String registanceToSnagging) {
-		RegistanceToSnagging = registanceToSnagging;
+		this.RegistanceToSnagging = registanceToSnagging;
 	}
 
 	public String getWaterRepellent() {
