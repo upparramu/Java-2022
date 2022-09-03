@@ -1,5 +1,7 @@
 package com.xworkz.CricketDTO;
 
+//import com.xworkz.methods.Fish;
+
 public  class CricketDTO {
 	
 	private String cricketTeam;
@@ -120,6 +122,42 @@ public  class CricketDTO {
 				+ ", stadiumName=" + stadiumName + ", NoOfUmpires=" + NoOfUmpires + ", StadiumType=" + StadiumType
 				+ ", extraPlayers=" + extraPlayers + ", iplTropiesWin=" + iplTropiesWin + "]";
 	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if(obj!=null)
+		{
+			System.out.println("Object is a null");
+		}
+		if(obj instanceof CricketDTO)
+		{
+			System.out.println("Object is a Cricket");
+			CricketDTO converted=(CricketDTO)obj; //Type Casting Method
+			String convertedcricketTeam=converted.cricketTeam;
+			String convertedstate=converted.state;
+			int convertednoOfPlayersPlaying=converted.noOfPlayersPlaying;
+			String convertedcaptainName=converted.captainName;
+			String convertedviceCaptainName=converted.viceCaptainName;
+			String convertedstadiumName=converted.stadiumName;
+			String convertedStadiumType=converted.StadiumType;
+			int  convertedextraPlayers=converted.extraPlayers;
+			int  convertediplTropiesWin=converted.iplTropiesWin;
+			
+			if(this.cricketTeam.equals(convertedcricketTeam) && this.state.equals(convertedstate))
+				
+			if(this.StadiumType.equals(convertedcricketTeam) && this.captainName.equals(convertedstate))
+				
+				System.out.println("---Dhoni Is a Indian Captain---");
+				
+			return true;
+		}
+		
+		return super.equals(obj);
+		
+	
+	
+		
+		
 	
 	
 	

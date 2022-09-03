@@ -15,28 +15,28 @@ public class Fish {
 		this.breed = bread;
 		this.type = type;
 		
-		System.out.println("*-----Bread of fish is-----*>>>>>"+breed);
-		System.out.println("*-----Type of fish living in-----*>>>>>"+type);
+		System.out.println("*-----Bread of fish is----->>>>>"+breed);
+		System.out.println("*-----Type of fish living in----->>>>>"+type);
 	}
 	
 	//getter
 	
 	public String getbreed()
 	{
-		System.out.println("-----Scad Fish-----");
+		System.out.println("<-----Scad Fish----->");
 		return breed;
 	}
 	
 	public String gettype()
 	{
-		System.out.println("-----Salt Water-----");
+		System.out.println("<-----Salt Water----->");
 		return type;
 	}	
 	
 	@Override
 	public String toString()
 	{
-		System.out.println("Method of Override");
+		System.out.println("*-----Method of Override-----*");
 		return super.toString();
 	}
 	
