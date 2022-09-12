@@ -6,7 +6,7 @@ public class DownTownPub {
 
 	public DownTownPub(PubRule pubRule) {
 
-		System.out.println("constructor of PubRule");
+		System.out.println("<<<-constructor of PubRule->>>");
 
 		this.pubRule = pubRule;
 
@@ -18,10 +18,10 @@ public class DownTownPub {
 		int age = pubRule.age();
 		boolean validProof = pubRule.validProof();
 
-		if (dressCodeFollowed && validProof && age > 20) {
-			System.out.println("Pub Rules are following");
+		if (dressCodeFollowed && validProof && age > 18) {
+			System.out.println("<<<--Pub Rules are following-->>>");
 		} else {
-			System.out.println("pub rules are not following");
+			System.err.println("pub rules are not following");
 		}
 	}
 

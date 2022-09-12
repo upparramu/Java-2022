@@ -24,7 +24,7 @@ public class LakeDAOImplementor implements LakeDAO {
 	@Override
 	public void printAllLakes() {
 
-		for (int r = 0; r < lakeNames.length; r++) {
+		for (int r= 0; r<lakeNames.length; r++) {
 			System.out.println(lakeNames[r]);
 		}
 	}
