@@ -2,7 +2,7 @@ package palindrome;
 
 public class Palindrome {
 
-	public static void main(String[] args) {
+	public static void main(String[] args, Object cityName) {
 		
 		String language = "Malayalam";
 		

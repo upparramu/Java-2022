@@ -153,6 +153,8 @@ public  class CricketDTO {
 		}
 		
 		return super.equals(obj);
+	}
+}
 		
 	
 	
@@ -176,4 +178,4 @@ public  class CricketDTO {
 	
 	
 
-}
+
