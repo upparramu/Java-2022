@@ -6,7 +6,7 @@ public class SubString {
 		
 		
 		String name="abcabcbb";
-		System.out.println("Using SubString method below");
+		System.out.println("*-----Using SubString method below-----*");
 			System.out.println(name.substring(0,3));
 		    System.out.println(name.substring(0, 3).length());			
 
